@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+    <main>
+    
+        <section id="login">
+            
+                <div id="imagem"></div>
+                <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no sue ambiente.</p>
+                    <form action="cadastro.php">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <label for="iemail"></label>
+                        <input type="text" name="email" id="iemail" required placeholder="Seu email">
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key</span>
+                        <label for="isenha"></label>
+                        <input type="password" name="Senha" id="isenha" required placeholder="Sua senha">
+                    </div>
+                    <input  type="submit" value="Enviar">
+                    <a class="botao" href="#">Esquecia a senha <span class="material-symbols-outlined">email</span><a>
+                    </form>
+                </div>
+        </section>
+    
+    </main>
+</body>
+</html>

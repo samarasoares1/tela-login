@@ -41,7 +41,7 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
 
-
+    transition: width .3s, height .3s;
     position: absolute;
     top: 50%;
     left: 50%;
